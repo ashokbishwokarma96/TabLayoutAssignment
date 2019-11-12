@@ -9,7 +9,7 @@
             android:title="Contacts" />
         <item
             android:id="@+id/nav_gallery"
-            android:title="Radius" />
+            android:title="Area Of Circle" />
         <item
             android:id="@+id/nav_slideshow"
             android:title="Addition" />
