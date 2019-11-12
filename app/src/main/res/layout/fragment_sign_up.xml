@@ -1,43 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
     tools:context=".LoginFragment">
-
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="136dp"
-        android:background="#e8dadb"
-        android:orientation="vertical"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
 
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="96dp"
-            android:layout_marginLeft="96dp"
-            android:layout_marginTop="40dp"
-            android:text="SignUp"
-            android:textAlignment="center"
-            android:textSize="30dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:text="Sign Up"
+            android:textSize="50dp"
+            android:padding="10dp"/>
 
         <EditText
 
             android:id="@+id/signupName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="50dp"
-            android:ems="10"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:hint="User Name"
             android:inputType="textPersonName" />
 
@@ -45,10 +30,8 @@
             android:id="@+id/sign1Pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="50dp"
-            android:ems="10"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:hint="user password"
             android:inputType="textPassword" />
 
@@ -56,25 +39,19 @@
             android:id="@+id/sign2Pass"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="50dp"
-            android:ems="10"
+            android:layout_margin="10dp"
+            android:gravity="center_horizontal"
             android:hint="confirm password"
             android:inputType="textPassword" />
 
         <Button
             android:id="@+id/btnsignup"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="50dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginBottom="30dp"
+            android:layout_margin="10dp"
             android:background="#0091EA"
-            android:text="SIGNUP"
+            android:text="SIGN UP"
             android:textColor="#ffffff"
             android:textSize="20dp" />
-    </LinearLayout>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>
